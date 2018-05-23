@@ -37,12 +37,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //CrashReport.testJavaCrash();//测试代码，会让系统报错，然后在bugly官网检查是否正常上报异常
+
         initData();
         initView();
 
         //去掉阴影title上面的一条黑色阴影
         getSupportActionBar().setElevation(0);
-
     }
 
     //初始化数据
