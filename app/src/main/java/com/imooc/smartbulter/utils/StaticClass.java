@@ -14,5 +14,6 @@ public class StaticClass {
     public static final int HANDLER_SPLASH = 1000;
     //判断系统是否是第一次运行
     public static final String SHARE_IS_FIRST = "isFirst";
-
+    //Bugly Key
+    public static final String BUGLY_APP_ID = "58d67c40cc";
 }
