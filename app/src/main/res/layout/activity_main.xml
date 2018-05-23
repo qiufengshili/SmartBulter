@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <android.support.design.widget.TabLayout
+            android:id="@+id/mTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@android:color/white" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/icon_setting" />
+
+</RelativeLayout>
+
+    <!--tabGravity: 居中-->
+    <!--tabIndicatorColor: 下划线的颜色-->
+    <!--tabSelectedTextColor: 选中颜色-->
+    <!--tabTextColor: 字体默认颜色-->
+
+    <!--xmlns是XML Namespaces的缩写，中文名称是XML命名空间-->
+    <!--xmlns:前缀=http://schemas.android.com/apk/res/应用程序包路径；然后使用的时候按格式：namespace-prefix（前缀）：属性-->
+    <!---比如 xmlns:android  只要前缀是android 就会有代码提示-->
+    <!--如果xmlns:app 显示灰色 点击File -> Invalidate Caches / Restart重启-->

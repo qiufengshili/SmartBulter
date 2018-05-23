@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--全屏主题-->
+    <style name="NoActivityFullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item> <!--不要title-->
+        <item name="windowActionBar">false</item>  <!--不要bar-->
+        <item name="android:windowFullscreen">true</item> <!--全屏-->
+        <item name="android:windowContentOverlay">@null</item> <!--主题分割线为null-->
+    </style>
+    
+</resources>
