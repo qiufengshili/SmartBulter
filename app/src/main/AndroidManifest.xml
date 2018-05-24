@@ -19,6 +19,7 @@
 
         <!--@android:style/Theme.Light.NoTitleBar.Fullscreen 全屏 没有标题-->
 
+        <!--闪屏-->
         <activity android:name=".ui.SplashActivity"
             android:theme="@style/NoActivityFullscreen">
 

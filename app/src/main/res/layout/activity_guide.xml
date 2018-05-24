@@ -38,13 +38,14 @@
   </LinearLayout>
 
   <!--如果把跳过放在上面 那么会被下面的拥有match_parent属性空间盖住 这就是RelativeLayout的缺陷-->
-  <ImageView
+  <Button
       android:id="@+id/iv_back"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentRight="true"
-      android:layout_marginRight="25dp"
-      android:layout_marginTop="25dp"
-      android:src="@drawable/black" />
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginEnd="11dp"
+      android:layout_marginTop="17dp"
+      android:alpha="0" />
 
 </RelativeLayout>
